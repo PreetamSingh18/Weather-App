@@ -48,8 +48,12 @@ const Weathercard = ({tempInfo}) => {
     <>
     <article className='widget'>
                 <div className='weatherIcon'>
+                    <div className='New'>
                     <i className={`wi ${weatherState}`}></i>
+
+                    </div>
                 </div>
+                {/* <div className='NEW'> */}
                 <div className='weatherInfo'>
                     <div className='temperature'>
                         <span>{temp}&deg;</span>
@@ -64,6 +68,7 @@ const Weathercard = ({tempInfo}) => {
 
                 </div>
                 <div className='date'>{new Date().toLocaleString()}</div>
+                {/* </div> */}
                 <div className='extra-temp'>
                     <div className='temp-info-minmax'>
 

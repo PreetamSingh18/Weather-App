@@ -191,3 +191,77 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+
+
+@media only screen and (max-width: 600px) {
+   .wrap {
+     margin-top: -100px;
+  } 
+
+
+  .widget{
+    margin-top: 30%;
+    width: 100%;
+    height: 50%;
+  }
+  .widget .weatherIcon  {
+  font-size: 80px;
+  background-size: auto;
+}
+/* .widget .weatherIcon i{
+  font-size: 10px;
+  background-size: auto;
+} */
+  .widget .weatherInfo {
+    flex: 1;
+    height: 40%;
+   
+  }
+  .widget .weatherInfo .temperature {
+    flex: 0 0 50%;
+    width: 100%;
+    font-size: 50px;
+   
+    margin-right: 15px;
+  }
+  .widget .weatherInfo .description {
+    flex: 0 50%;
+    
+  }
+  .widget .weatherInfo .description .weatherCondition {
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 8px;
+    
+  }
+  .widget .weatherInfo .description .place {
+    font-size: 11px;
+  }
+  .widget .date {
+    flex: 2 ;
+    height: 40%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+   
+  }
+
+  .searchTerm {
+    width: 70%;
+    font-size: 18px;
+  }
+ 
+ .widget .extra-temp p {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  
+  .widget .extra-temp .extra-info-leftside { 
+    margin-top: -5px;
+    font-size: 13px;
+  }
+  
+  
+  
+}

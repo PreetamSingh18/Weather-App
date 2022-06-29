@@ -266,11 +266,11 @@ body {
   .wrap {
     margin-top: -50px;
  } 
- .widget{
+ /* .widget{
    margin-top: 30%;
    width: 100%;
    height: 0%;
- }
+ } */
 
  .widget .weatherInfo {
    flex: 1;
